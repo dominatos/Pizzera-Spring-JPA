@@ -32,14 +32,14 @@ public class PizzeriaRunner implements CommandLineRunner {
 
 
 // MENU CRUD
-       menuService.salvaMenu(menuService.creamenu());
+       //menuService.salvaMenu(menuService.creamenu());
         menuService.menuStamp(menuService.findMenuById(1));
         //menuService.removeMenu(2);
         Menu menu=menuService.findMenuById(1);
-        menu.setNome("Pizzeria al Ponte");
-        menuService.updateMenu(menu);
+        //menu.setNome("Pizzeria al Ponte2");
+        //menuService.updateMenu(menu);
 
-        //menuService.menuStamp(menuService.findMenuByName("WTF2"));
+       
 // ORDINE CRUD
         ordineService.creaNordini(10,1);
     //Ordine ordine = ordineService.getOrdineById(1L);
