@@ -34,3 +34,5 @@ Cliente (Cliente) → Rappresenta un cliente con nome e numero di telefono. Bean
 Classe MenuService (Gestione Pizze) Contiene una lista di pizze disponibili. Metodo stampaMenu() per mostrare il menu. Classe OrdineService (Gestione Ordini) Registra nuovi ordini. Metodo creaOrdine(Cliente cliente, List listaProdotti). Metodo stampaOrdini() per mostrare gli ordini effettuati.
 
 Classe PizzeriaRunner Implementa CommandLineRunner per avviare automaticamente l’applicazione. Stampa del menu, Simula la creazione di alcuni ordini e la stampa di tutti gli ordini effettuati con il calcolo del totale .
+
+VERSIONE SPRING-JDBC - https://github.com/dominatos/Pizzeria-SpringJDBC
