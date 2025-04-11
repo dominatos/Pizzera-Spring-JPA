@@ -14,9 +14,7 @@ import lombok.*;
 public class Drink extends Prodotto {
 
     private double gradazione;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+
 
 
     public Drink(String nome,Double gradazione, double prezzo, Menu menu) {

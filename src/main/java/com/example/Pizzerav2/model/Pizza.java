@@ -18,9 +18,7 @@ public class Pizza extends Prodotto {
 
     @Convert(converter = StringListConverter.class)
     private List<String>  ingredienti=new ArrayList<String>();
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+
 
 
     public Pizza(String nome, double prezzo, Menu menu) {

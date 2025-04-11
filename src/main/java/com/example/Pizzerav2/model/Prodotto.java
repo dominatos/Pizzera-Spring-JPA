@@ -30,7 +30,7 @@ public class Prodotto  {
         this.menu = menu;
     }
 
-    public Prodotto(String nome, double prezzo) {
-    }
+//    public Prodotto(String nome, double prezzo) {
+//    }
 
 }
